@@ -1,0 +1,67 @@
+:root {
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+  --white: hsl(36, 100%, 99%);
+  --gray-blue: hsl(233, 8%, 79%);
+  --dark-gray-blue: hsl(236, 13%, 42%);
+  --dark-blue: hsl(240, 100%, 5%);
+  --paragraph-font-size: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 144rem;
+  padding: 5rem 0;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  column-gap: 3.6rem;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--dark-gray-blue);
+  transition: all 0.5s;
+}
+
+.nav-link:hover {
+  color: var(--soft-red);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
