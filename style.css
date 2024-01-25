@@ -40,7 +40,6 @@ body {
 
 .nav-list {
   display: flex;
-  align-items: center;
   column-gap: 3.6rem;
 }
 
@@ -58,10 +57,149 @@ body {
   color: var(--soft-red);
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 3rem;
+  margin: 3rem 0;
+}
+
+.hero img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.hero-text-box {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 800;
+  color: var(--dark-blue);
+  margin-right: 6rem;
+  letter-spacing: 1.6px;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: var(--dark-gray-blue);
+  font-weight: 500;
+}
+
+.hero-text p {
+  margin-bottom: 4rem;
+}
+
+.btn {
+  color: var(--white);
+  background-color: var(--soft-red);
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1.6rem 3.2rem;
+  letter-spacing: 1.9px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: var(--dark-blue);
+}
+
+aside {
+  padding: 2rem;
+  background-color: var(--dark-blue);
+}
+
+h2 {
+  color: var(--soft-orange);
+  margin-bottom: 2.8rem;
+}
+
+.lead {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--white);
+  transition: all 0.5s;
+}
+
+.lead:hover {
+  color: var(--soft-orange);
+  cursor: pointer;
+}
+
+.text {
+  margin: 4rem 0;
+}
+
+.text-2 {
+  color: var(--gray-blue);
+}
+
+.br-btm {
+  border-bottom: 1px solid var(--gray-blue);
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5.6rem;
+  margin: 7.2rem 0;
+}
+
+.pc-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.pc-list img {
+  height: 70%;
+}
+
+.text-content {
+  height: 70%;
+  margin-left: -4rem;
+}
+
+.number {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--gray-blue);
+}
+
+h4 {
+  color: var(--dark-blue);
+  margin-bottom: 2rem;
+  transition: all 0.5s;
+}
+
+h4:hover {
+  color: var(--soft-red);
+  cursor: pointer;
+}
+
 .attribution {
-  font-size: 11px;
+  font-size: 2rem;
+  padding: 3rem 0;
+  color: var(--white);
+  background-color: var(--dark-gray-blue);
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #f97f7f;
+  text-decoration: none;
+  transition: all 0.5s ease-in;
+}
+
+.attribution a:hover {
+  color: #90c0fc;
+  text-decoration: underline;
+  transform: scale(1.3);
 }
