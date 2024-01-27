@@ -57,11 +57,28 @@ body {
   color: var(--soft-red);
 }
 
+.btn-mobile-nav {
+  background-color: none;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+
+.btn-mobile-nav img {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.menu-close {
+  display: none;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
   column-gap: 3rem;
   margin: 3rem 0;
+  margin-top: 5.6rem;
 }
 
 .hero img {
@@ -168,8 +185,8 @@ h2 {
 
 .number {
   display: inline-block;
-  margin-bottom: 2rem;
   font-size: 4rem;
+  margin-bottom: 2rem;
   font-weight: 800;
   color: var(--gray-blue);
 }
