@@ -32,6 +32,11 @@ body {
   margin: 0 auto;
 }
 
+.bg-overlay {
+  background-color: rgba(217, 219, 221, 0.3);
+  opacity: 0.95;
+}
+
 .navigation {
   display: flex;
   align-items: center;

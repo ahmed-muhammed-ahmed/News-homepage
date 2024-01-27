@@ -1,8 +1,10 @@
 const mobileNavButton = document.querySelector(".btn-mobile-nav");
 const navigation = document.querySelector(".navigation");
 const allLinks = document.querySelectorAll("a:link");
+const body = document.body;
 
 mobileNavButton.addEventListener("click", function () {
+  body.classList.toggle("bg-overlay");
   navigation.classList.toggle("open-nav");
 });
 
